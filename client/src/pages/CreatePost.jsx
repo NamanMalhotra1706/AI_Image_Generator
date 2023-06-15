@@ -67,7 +67,7 @@ const CreatePost = () => {
         });
 
         await response.json();
-        alert('Success');
+        alert('Your AI Generated Image Successfully added to Community');
         navigate('/');
       } catch (err) {
         alert(err);
