@@ -30,7 +30,7 @@ const CreatePost = () => {
     if (form.prompt) {
       try {
         setGeneratingImg(true);
-        const response = await fetch('https://ai-image-generator-naman-malhotra.onrender.com/api/v1/image', {
+        const response = await fetch('http://localhost:3000/api/v1/image', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

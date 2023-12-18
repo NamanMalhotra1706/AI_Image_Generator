@@ -17,7 +17,7 @@ app.use('/api/v1/image', imageRoutes);
 
 app.get('/', async (req, res) => {
   res.status(200).json({
-    message: 'Hello from Naman Nalhotra"S(AI_Image_Generator)',
+    message: 'Hello from Naman Malhotra"S(AI_Image_Generator)',
   });
 // res.send("Hello World!");
 });
