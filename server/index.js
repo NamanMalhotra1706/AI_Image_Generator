@@ -5,6 +5,7 @@ import connectDB from './mongoDb/connect.js';
 import postRoutes from './routes/postRoutes.js';
 import imageRoutes from './routes/imageRoutes.js';
 
+
 const port = 3000;
 dotenv.config();
 
